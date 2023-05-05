@@ -1,0 +1,48 @@
+{% extends "./log-reg-base.html" %}
+{% block main-head %}
+	{% with 'app - SignUp' as title %}
+		{{block.super}}
+	{% endwith %}
+{% endblock %}
+
+{% block log-reg-show %}
+{% endblock %}
+{% block log-reg-pane %}
+{% if form.errors %}
+<div class="log-reg-notifications">
+	<div class='log-reg-notif error'>
+		{% for field in form %}
+				{% if field.errors %}
+					{{ field.errors|striptags }}
+				{% endif %}
+		{% endfor %}
+	</div>
+</div>
+{% endif %}
+<form class='log-reg-form' method="post" action="">
+	<a href="{% url 'index' %}">
+		<img src="/static/favicons/apple-icon-60x60.png">
+	</a>
+	<legend>Signup with Oasis</legend>
+	{% csrf_token %}
+	{{ form.email }}
+	{{ form.password }}
+	<input type="submit" value="Sign Up" />
+	<input type="hidden" name="next" value="{{ next }}" />
+
+	{# Assumes you setup the password_reset view in your URLconf #}
+	<p class='log-reg-blue'>By signing up, you agree to the  <a href="{%url 'login'%}">Terms of Service</a> and <a href="{%url 'login'%}">Privacy Policy</a></p>
+</form>
+<p class='log-reg-foot'>Already have an account? <a href="{%url 'login'%}">Log In</a></p>
+{% endblock %}
+
+
+<script>
+           {% if messages %}
+               {% for message in messages %}
+                   alert(message);
+               {% endfor %}
+           {% endif %}
+</script>
+{% block script %}
+{% endblock script %}

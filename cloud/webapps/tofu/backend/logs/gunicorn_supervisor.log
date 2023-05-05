@@ -1,0 +1,281 @@
+[2019-11-17 15:19:07 +0000] [19927] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:08 +0000] [19927] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:09 +0000] [19927] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:10 +0000] [19927] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:11 +0000] [19927] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:19:12 +0000] [19973] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:19:12 +0000] [19973] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:13 +0000] [19973] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:14 +0000] [19973] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:15 +0000] [19973] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:16 +0000] [19973] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:17 +0000] [19973] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:19:19 +0000] [20018] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:19:19 +0000] [20018] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:20 +0000] [20018] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:21 +0000] [20018] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:22 +0000] [20018] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:23 +0000] [20018] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:24 +0000] [20018] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:19:25 +0000] [20062] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:19:25 +0000] [20062] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:26 +0000] [20062] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:27 +0000] [20062] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:28 +0000] [20062] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:29 +0000] [20062] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:30 +0000] [20062] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:19:32 +0000] [20108] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:19:32 +0000] [20108] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:33 +0000] [20108] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:34 +0000] [20108] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:35 +0000] [20108] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:36 +0000] [20108] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:37 +0000] [20108] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:19:38 +0000] [20152] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:19:38 +0000] [20152] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:39 +0000] [20152] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:40 +0000] [20152] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:41 +0000] [20152] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:42 +0000] [20152] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:43 +0000] [20152] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:19:45 +0000] [20196] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:19:45 +0000] [20196] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:46 +0000] [20196] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:47 +0000] [20196] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:48 +0000] [20196] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:49 +0000] [20196] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:50 +0000] [20196] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:19:51 +0000] [20241] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:19:51 +0000] [20241] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:52 +0000] [20241] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:53 +0000] [20241] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:54 +0000] [20241] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:55 +0000] [20241] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:56 +0000] [20241] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:19:57 +0000] [20285] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:19:57 +0000] [20285] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:58 +0000] [20285] [ERROR] Retrying in 1 second.
+[2019-11-17 15:19:59 +0000] [20285] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:00 +0000] [20285] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:01 +0000] [20285] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:02 +0000] [20285] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:20:04 +0000] [20329] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:20:04 +0000] [20329] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:05 +0000] [20329] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:06 +0000] [20329] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:07 +0000] [20329] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:08 +0000] [20329] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:09 +0000] [20329] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:20:10 +0000] [20373] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:20:10 +0000] [20373] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:11 +0000] [20373] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:12 +0000] [20373] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:13 +0000] [20373] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:14 +0000] [20373] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:15 +0000] [20373] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:20:17 +0000] [20420] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:20:17 +0000] [20420] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:18 +0000] [20420] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:19 +0000] [20420] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:20 +0000] [20420] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:21 +0000] [20420] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:22 +0000] [20420] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+mkdir: cannot create directory ‘/webapps/tofu/backend/run’: Permission denied
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:20:23 +0000] [20466] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:20:23 +0000] [20466] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:24 +0000] [20466] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:25 +0000] [20466] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:26 +0000] [20466] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:27 +0000] [20466] [ERROR] Retrying in 1 second.
+[2019-11-17 15:20:28 +0000] [20466] [ERROR] Can't connect to /webapps/tofu/backend/run/gunicorn.sock
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:20:30 +0000] [20512] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:20:30 +0000] [20512] [INFO] Listening at: unix:/webapps/tofu/backend/run/gunicorn.sock (20512)
+[2019-11-17 15:20:30 +0000] [20512] [INFO] Using worker: sync
+[2019-11-17 15:20:30 +0000] [20556] [INFO] Booting worker with pid: 20556
+[2019-11-17 15:20:30 +0000] [20557] [INFO] Booting worker with pid: 20557
+[2019-11-17 15:20:30 +0000] [20558] [INFO] Booting worker with pid: 20558
+[2019-11-17 15:20:30 +0000] [20559] [INFO] Booting worker with pid: 20559
+[2019-11-17 15:20:30 +0000] [20562] [INFO] Booting worker with pid: 20562
+[2019-11-17 15:20:30 +0000] [20563] [INFO] Booting worker with pid: 20563
+[2019-11-17 15:20:31 +0000] [20512] [INFO] Handling signal: term
+[2019-11-17 20:50:37 +0530] [20557] [INFO] Worker exiting (pid: 20557)
+[2019-11-17 20:50:37 +0530] [20556] [INFO] Worker exiting (pid: 20556)
+[2019-11-17 20:50:37 +0530] [20558] [INFO] Worker exiting (pid: 20558)
+[2019-11-17 20:50:37 +0530] [20559] [INFO] Worker exiting (pid: 20559)
+[2019-11-17 20:50:37 +0530] [20562] [INFO] Worker exiting (pid: 20562)
+[2019-11-17 20:50:37 +0530] [20563] [INFO] Worker exiting (pid: 20563)
+[2019-11-17 15:20:39 +0000] [20512] [INFO] Shutting down: Master
+Starting tofu_app as tofu /webapps/tofu
+/usr/bin/python: No module named virtualenvwrapper
+virtualenvwrapper.sh: There was a problem running the initialization hooks.
+
+If Python could not import the module virtualenvwrapper.hook_loader,
+check that virtualenvwrapper has been installed for
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python and that PATH is
+set properly.
+/usr/bin/python: No module named virtualenvwrapper
+/usr/bin/python: No module named virtualenvwrapper
+Starting tofu_app as tofu app_project.wsgi
+[2019-11-17 15:20:40 +0000] [20583] [INFO] Starting gunicorn 19.9.0
+[2019-11-17 15:20:40 +0000] [20583] [INFO] Listening at: unix:/webapps/tofu/backend/run/gunicorn.sock (20583)
+[2019-11-17 15:20:40 +0000] [20583] [INFO] Using worker: sync
+[2019-11-17 15:20:40 +0000] [20626] [INFO] Booting worker with pid: 20626
+[2019-11-17 15:20:40 +0000] [20628] [INFO] Booting worker with pid: 20628
+[2019-11-17 15:20:40 +0000] [20627] [INFO] Booting worker with pid: 20627
+[2019-11-17 15:20:40 +0000] [20630] [INFO] Booting worker with pid: 20630
+[2019-11-17 15:20:40 +0000] [20631] [INFO] Booting worker with pid: 20631
+[2019-11-17 15:20:40 +0000] [20632] [INFO] Booting worker with pid: 20632

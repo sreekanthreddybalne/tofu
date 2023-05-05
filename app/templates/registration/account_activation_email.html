@@ -1,0 +1,119 @@
+{% autoescape off %}
+<head>
+<style>
+  .dpre pre{
+    font-size: 14px;
+  }
+  .asdf{
+    font-family: 'Roboto',sans-serif!important;
+    max-width: 600px;
+    background: #fafafa;
+    text-align: center;
+  }
+  .asdf table{
+    margin: auto;
+    width: 90%;
+    table-layout: fixed;
+  }
+  .asdf table th{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 1em;
+  }
+  .asdf table .content-holder{
+    background: #fff;
+    padding: 1em;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(3,27,78,.06);
+  }
+  .content-holder .welcome-title{
+    font-weight: bold;
+    color: #494949;
+    line-height: 20px;
+    font-size: 24px;
+  }
+  .content-holder .text-content{
+    padding: 1em 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .content-holder a{
+    color: #0069ff;
+  }
+  </style>
+</head>
+<div class="asdf">
+  <table>
+    <tbody>
+      <tr>
+        <th>
+          <img src="http://127.0.0.1:8008/static/favicons/apple-icon-60x60.png" alt="">
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <table class="content-holder">
+            <tbody>
+              <tr>
+                <td class="welcome-title">Hi Sree,</td>
+              </tr>
+              <tr>
+                <td class="text-content">
+                  Thanks for creating an account with taskpair. Click below link
+                   to confirm your email address:
+                   <a href="https://www.upwork.com/signup/verify-email/token/~~1c8ae9327214343a">
+                     https://www.upwork.com/signup/verify-email/token/~~1c8ae9327214343a
+                   </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-content">
+                  If you have problems, please paste the above URL into your web browser.
+                </td>
+              </tr>
+              <tr>
+                <td class="text-content">
+                  Thanks,<br> taskpair Support
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="dpre">
+  ---------------------------------------------------------------------
+  {{domain_short_name}} Account Activation
+  ---------------------------------------------------------------------
+
+  Dear User,
+  Welcome to app community! We are happy to have you with us.
+  To activate your app account, click the link below:
+
+  {{ domain_url }}{% url 'activate' uidb64=uid token=token %}
+
+  You can start creating and sharing your apps after successful verification of your email
+  and by submitting your details thereafter.
+
+  For your information:
+
+   User Email            : {{ user.get_username }}
+   Time of Request (UTC) : {% now "jS F Y H:i" %}
+   {#IP Address          : 47.8.133.94#}
+
+  If the above link is not clickable, please copy the whole link and
+  paste it in your browser.
+
+  Should you have any questions or concerns, please contact us at {{domain_support_url}}
+
+  Sincerely,
+  {{domain_short_name}} Team
+  {{domain_url}}
+
+  If you didn't request an account with app or you feel you've received this email in error, please call our 24/7 support team right away at {{mobile_support}}.
+  If you take no action, don't worry – nobody will be able to use your account without access to this email.
+</div>
+{% endautoescape %}

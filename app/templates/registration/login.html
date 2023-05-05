@@ -1,0 +1,48 @@
+{% extends "./log-reg-base.html" %}
+{% load app_tags %}
+{% block log-reg-show %}
+{% endblock %}
+{% block log-reg-pane %}
+<div class="log-reg-notifications">
+	{% if form.errors %}
+	<div class='log-reg-notif error'>Your username or password is incorrect. Please try again.</div>
+	{% endif %}
+
+	{% if messages %}
+		<div class='log-reg-notif success'>
+			<ul class="messages">
+		    {% for message in messages %}
+				{{messages.count}}
+		      <li class="{{ message.tags }}">{{ message }}</li>
+		    {% endfor %}
+		  </ul>
+		</div>
+	{% endif %}
+
+	{% if next %}
+	    {% if user.is_authenticated %}
+	    <p>Your account doesn't have access to this page. To proceed,
+	    please login with an account that has access.</p>
+	    {% else %}
+	    <div  class='log-reg-notif info'>Please login to see this page.</div>
+	    {% endif %}
+	{% endif %}
+</div>
+<form class='log-reg-form' method="post" action="">
+	<a href="{% url 'index' %}">
+		<img src="/static/favicons/apple-icon-60x60.png">
+	</a>
+	<legend>
+		Login to Oasis
+	</legend>
+	{% csrf_token %}
+	{{ form.username|html_placeholder:"Email or Mobile or UserID" }}
+	{{ form.password|html_placeholder:"Password" }}
+	<input type="submit" value="Log In" />
+	<input type="hidden" name="next" value="{{ next }}" />
+
+	{# Assumes you setup the password_reset view in your URLconf #}
+	<p class='log-reg-blue'><a href="{%url 'password_reset'%}">Forgot password?</a></p>
+</form>
+<p class='log-reg-foot'>Don't have an account? <a href="{%url 'signup'%}">Sign Up</a></p>
+{% endblock %}

@@ -1,0 +1,16 @@
+sample_data/
+*.env
+app/migrations/*
+!app/migrations/__init__.py
+app/templates/frontend/*
+
+bundle.tar.gz
+.coverage
+local_settings.py
+__pycache__/
+static/
+venv*
+.vscode
+.idea/
+.DS_Store
+test-profile.speedscope

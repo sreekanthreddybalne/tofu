@@ -1,0 +1,13 @@
+{
+  "post_types": [
+    {
+      "name": "Expecting feedback about a dish from other users"
+    },
+    {
+      "name": "Post about a Restaurant"
+    },
+    {
+      "name": "Post about a Dish from a Restaurant"
+    }
+  ]
+}

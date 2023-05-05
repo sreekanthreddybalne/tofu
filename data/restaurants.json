@@ -1,0 +1,11 @@
+{
+  "restaurants": [
+    {
+      "name": "Burger King",
+      "description": "some description about burger king",
+      "coordinates": "",
+      "address": "51252",
+      "zip_code": "123456"
+    }
+  ]
+}

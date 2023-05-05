@@ -1,0 +1,29 @@
+{% extends "./log-reg-base.html" %}
+{% block log-reg-show %}
+{% endblock %}
+{% block log-reg-pane %}
+{% if form.errors %}
+<div class='log-reg-notif error'>
+	{% for field in form %}
+			{% if field.errors %}
+				{{ field.errors|striptags }}
+			{% endif %}
+	{% endfor %}
+</div>
+{% endif %}
+<form class='log-reg-form' method="post" action="">
+	<a href="{% url 'index' %}">
+		<img src="https://app.in/static/app/images/logo/applogo8-62x62.png">
+	</a>
+	<legend>
+		Welcome!
+	</legend>
+  <a class='ex-link' href="{% url 'signup_user' %}">I'm a User</a>
+  <a class='ex-link' href="{% url 'signup_institute' %}">An Institute</a>
+	<input type="hidden" name="next" value="{{ next }}" />
+
+	{# Assumes you setup the password_reset view in your URLconf #}
+	<p class='log-reg-blue'>By signing up, you agree to the  <a href="{%url 'login'%}">Terms of Service</a> and <a href="{%url 'login'%}">Privacy Policy</a></p>
+</form>
+<p class='log-reg-foot'>Already have an account? <a href="{%url 'login'%}">Log In</a></p>
+{% endblock %}
